@@ -7,7 +7,7 @@ import HomePage from '../themes/theme-1/pages/HomePage';
 
 const inter = Inter({ subsets: ['latin'] })
 
-type Props {
+type Props = {
   factory: {
     homepage: Element
   }
